@@ -1,18 +1,5 @@
 # Google Flights Clone
 
-A fully functional Google Flights-style application built with **Vite + React + Tailwind CSS** and integrated with the Sky-Scrapper API from RapidAPI.
-
-## ✈️ Features
-
-- 🔍 **Real Flight Search**: Integrated with Sky-Scrapper API for live flight data
-- 🌙 **Dark/Light Mode**: Toggle between themes with localStorage persistence
-- 📱 **Fully Responsive**: Optimized for desktop, tablet, and mobile devices
-- 🎛️ **Advanced Filters**: Price range slider, stops filter, airline selection
-- ⚡ **Fast Performance**: Built with Vite for lightning-fast development
-- 🎨 **Clean UI**: Google Flights-inspired design with subtle shadows and spacing
-- 🔄 **Loading States**: Smooth loading animations and error handling
-- 📊 **Mock Data Fallback**: Works even without API key for testing
-
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -47,28 +34,7 @@ A fully functional Google Flights-style application built with **Vite + React + 
 
 That's it! The app will work immediately with your API key, or show mock data if no key is provided.
 
-## 🏗️ Project Structure
 
-\`\`\`
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx           # Navigation with theme toggle
-│   │   ├── SearchForm.jsx       # Flight search form
-│   │   ├── Filters.jsx          # Sidebar filters (collapsible)
-│   │   ├── FlightCard.jsx       # Individual flight display
-│   │   ├── FlightsList.jsx      # Flight results container
-│   │   ├── LoadingSpinner.jsx   # Reusable loading component
-│   │   └── ErrorBoundary.jsx    # Error handling wrapper
-│   ├── services/
-│   │   └── api.js               # Sky-Scrapper API integration
-│   ├── App.jsx                  # Main application component
-│   ├── main.jsx                 # Application entry point
-│   └── index.css                # Tailwind CSS styles
-├── package.json                 # Dependencies and scripts
-├── vite.config.js              # Vite configuration
-├── tailwind.config.js          # Tailwind CSS configuration
-└── .env.example                # Environment variables template
-\`\`\`
 
 ## 🔧 API Integration
 
