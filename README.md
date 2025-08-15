@@ -21,8 +21,8 @@
    
    Edit `.env` and add your RapidAPI key:
    \`\`\`env
-   VITE_RAPIDAPI_KEY=your_rapidapi_key_here
-   VITE_RAPIDAPI_HOST=sky-scrapper.p.rapidapi.com
+   NEXT_PUBLIC_RAPIDAPI_KEY=your_rapidapi_key_here
+   NEXT_PUBLIC_RAPIDAPI_HOST=sky-scrapper.p.rapidapi.com
    \`\`\`
 
 4. **Run the development server:**
@@ -162,8 +162,8 @@ The built files will be in the `dist/` directory, ready for deployment to any st
 
 | Variable | Description | Required |
 |----------|-------------|----------|
-| `VITE_RAPIDAPI_KEY` | Your RapidAPI key for Sky-Scrapper | Yes* |
-| `VITE_RAPIDAPI_HOST` | API host (default: sky-scrapper.p.rapidapi.com) | No |
+| `NEXT_PUBLIC_RAPIDAPI_KEY` | Your RapidAPI key for Sky-Scrapper | Yes* |
+| `NEXT_PUBLIC_RAPIDAPI_HOST` | API host (default: sky-scrapper.p.rapidapi.com) | No |
 
 *Required for live data. App works with mock data if not provided.
 
@@ -179,18 +179,10 @@ The built files will be in the `dist/` directory, ready for deployment to any st
 ### Debug Mode
 Set `console.log` statements in `src/services/api.js` to debug API calls.
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes
-4. Test on multiple devices/browsers
-5. Submit a pull request
 
 ## 📄 License
 
 MIT License - feel free to use this project for personal or commercial purposes.
 
 ---
-
-**Ready to fly?** 🛫 Just add your API key and start searching for flights!
